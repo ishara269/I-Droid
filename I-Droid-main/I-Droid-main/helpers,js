@@ -1,0 +1,25 @@
+/*
+# Exclusively from I-Tech project 
+# Do not use this fore any commercial thing
+# If you abuse thais bot we wil kick you from bot 
+# Do not edit (Respect to the Devaoloper) 
+# All rights reserved ©I-Tech-Technologies @I-Tech t.me/itech9999
+# Get more about devaoloper https://i-tech-technologies.blogspot.com
+*/
+
+function successfullMessage(msg) {
+    return "✅ *I-Droid*:  ```" + msg + "```"
+}
+function errorMessage(msg) {
+    return "🛑 *I-Droid*:  ```" + msg + "```"
+}
+function infoMessage(msg) {
+    return "⏺️ *I-Droid*:  ```" + msg + "```"
+}
+
+
+module.exports = {
+    successfullMessage,
+    errorMessage,
+    infoMessage
+}
